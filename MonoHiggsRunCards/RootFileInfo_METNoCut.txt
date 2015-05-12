@@ -1,0 +1,12 @@
+option overlap
+nhist 1
+nfile 4
+files RootFiles/MonoHiggs/Merged_DYJetsToLL_M-50_13TeV-madgraph-pythia8-main.root RootFiles/MonoHiggs/Merged_TT_Tune4C_13TeV-pythia8-tauola-main.root RootFiles/MonoHiggs/Merged_ZH_HToBB_ZToNuNu_M-125_13TeV_powheg-herwigpp-main.root RootFiles/MonoHiggs/Merged_MonoHSignalSample1000EventsFromEiko-main.root
+normalizedUnity 1
+dirnameinrootfile MET_NoCut_
+legend DY+Jets; TTBar; ZH; Signal
+color 1 2 4 6 
+lumi 0 
+xsection 1 1 1 1 
+totaleventhist 1
+endoffile 

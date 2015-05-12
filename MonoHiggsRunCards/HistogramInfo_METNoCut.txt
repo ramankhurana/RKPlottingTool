@@ -1,0 +1,32 @@
+Histname h_RawPt
+XRange 0. 1000
+YRange 0.0 0.5
+Xaxis MET
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_RawPt
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_RawPhi
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #phi_{MET}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_RawPhi
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+

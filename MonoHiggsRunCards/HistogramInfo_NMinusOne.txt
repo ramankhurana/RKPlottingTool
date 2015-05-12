@@ -1,0 +1,260 @@
+Histname h_DiJetMass_detaJets
+XRange 0. 200
+YRange 0.0 0.5
+Xaxis M_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DiJetMass_detaJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DiJetMass_dphiJets
+XRange 0. 200
+YRange 0.0 0.5
+Xaxis M_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DiJetMass_dphiJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DiJetMass_ptOverpt1pt1
+XRange 0. 200
+YRange 0.0 0.5
+Xaxis M_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DiJetMass_ptOverpt1pt1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DiJetMass_dijetmass
+XRange 0. 200
+YRange 0.0 0.5
+Xaxis M_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DiJetMass_dijetmass
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+Histname h_DeltaEtaJets_dijetmass
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#eta_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaEtaJets_dijetmass
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DeltaEtaJets_dphiJets
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#eta_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaEtaJets_dphiJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+Histname h_DeltaEtaJets_ptOverpt1pt1
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#eta_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaEtaJets_ptOverpt1pt1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_DeltaEtaJets_detaJets
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#eta_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaEtaJets_detaJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+Histname h_DeltaPhiJets_detaJets
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#phi_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhiJets_detaJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DeltaPhiJets_dijetmass
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#phi_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhiJets_dijetmass
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DeltaPhiJets_dphiJets
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#phi_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhiJets_dphiJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_DeltaPhiJets_ptOverpt1pt1
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta#phi_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhiJets_ptOverpt1pt1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_PtOverPt1Pt2_detaJets
+XRange 0. 1.0
+YRange 0.0 0.6
+Xaxis p_{T}^{H}/p_{T}^{b1}+p_{T}^{b2}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_PtOverPt1Pt2_detaJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_PtOverPt1Pt2_dijetmass
+XRange 0. 1.0
+YRange 0.0 0.6
+Xaxis p_{T}^{H}/p_{T}^{b1}+p_{T}^{b2}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_PtOverPt1Pt2_dijetmass
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+Histname h_PtOverPt1Pt2_dphiJets
+XRange 0. 1.0
+YRange 0.0 0.6
+Xaxis p_{T}^{H}/p_{T}^{b1}+p_{T}^{b2}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_PtOverPt1Pt2_dphiJets
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+Histname h_PtOverPt1Pt2_ptOverpt1pt1
+XRange 0. 1.0
+YRange 0.0 0.6
+Xaxis p_{T}^{H}/p_{T}^{b1}+p_{T}^{b2}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_PtOverPt1Pt2_ptOverpt1pt1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+

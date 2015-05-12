@@ -1,0 +1,61 @@
+Histname h_cutflow_0
+XRange 0. 5
+YRange 0.0 0.5
+Xaxis Cut Flow
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_cutflow_0
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_cutflow_1
+XRange 0. 5
+YRange 0.0 0.5
+Xaxis Cut Flow
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_cutflow_1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_eachcut_0
+XRange 0. 5
+YRange 0.0 0.5
+Xaxis EachCut
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_eachcut_0
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_eachcut_1
+XRange 0. 5
+YRange 0.0 0.5
+Xaxis EachCut
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_eachcut_1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+

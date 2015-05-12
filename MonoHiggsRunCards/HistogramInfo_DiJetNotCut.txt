@@ -1,0 +1,150 @@
+Histname h_pt
+XRange 0. 800
+YRange 0.0 0.5
+Xaxis p_{T}^{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_pt
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_eta
+XRange -3.5 3.5 
+YRange 0.0 0.5
+Xaxis #eta^{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_eta
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_phi
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #phi^{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_phi
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_energy
+XRange 0. 800
+YRange 0.0 0.5
+Xaxis Energy^{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_energy
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_DeltaR
+XRange 0. 7.
+YRange 0.0 0.5
+Xaxis #Delta R_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaR
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_DeltaPhi
+XRange -3.5 3.5
+YRange 0.0 0.5
+Xaxis #Delta #phi_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhi
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_DeltaEta
+XRange -3.5 3.5 
+YRange 0.0 0.5
+Xaxis #Delta #eta_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaEta
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_InvMass
+XRange 0. 250
+YRange 0.0 0.5
+Xaxis M_{bb}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_InvMass
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_Pt2OverPt1
+XRange 0. 1.
+YRange 0.0 0.5
+Xaxis p_{T}^{b2}/p_{T}^{b1}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_Pt2OverPt1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_PtOverPt1Pt2
+XRange 0. 1.
+YRange 0.0 0.5
+Xaxis p_{T}^{bb}/(p_{T}^{b2} + p_{T}^{b1})
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_PtOverPt1Pt2
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto

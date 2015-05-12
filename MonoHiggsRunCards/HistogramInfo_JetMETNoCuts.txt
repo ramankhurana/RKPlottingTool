@@ -1,0 +1,63 @@
+Histname h_DeltaPhi0
+XRange -3.5 3.5 
+YRange 0.0 0.5
+Xaxis #Delta #phi_{b1,MET}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhi0
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+Histname h_DeltaPhi1
+XRange -3.5 3.5 
+YRange 0.0 0.5
+Xaxis #Delta #phi_{b2,MET}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_DeltaPhi1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+Histname h_TransMass0
+XRange 0. 1200.
+YRange 0.0 0.5
+Xaxis M_{T}^{b1,MET}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_TransMass0
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
+
+
+
+
+Histname h_TransMass1
+XRange 0. 1200.
+YRange 0.0 0.5
+Xaxis M_{T}^{b2,MET}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName h_TransMass1
+legendplace 0.72 0.72 0.89 0.89
+legend DY+Jets; TTBar; ZH; Signal
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6
+endofhisto
