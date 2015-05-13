@@ -171,13 +171,13 @@ void PlotPOverlappingHisto:: DrawHistograms(std::vector<FileInfo> fobjVec, std::
 	  h->GetYaxis()->SetTitleOffset(1.45);
 	  std::cout<<" xmin, xmax "<<hobjVec[ihisto].XRange[0] <<"    "<<hobjVec[ihisto].XRange[1]<<std::endl;
 	  h->GetXaxis()->SetRangeUser(hobjVec[ihisto].XRange[0], hobjVec[ihisto].XRange[1]);
-
-	  //std::cout<<" int = "<<h->Integral()<<std::endl;
+	  
+	  std::cout<<" int = "<<h->Integral()<<std::endl;
 	  TString legendtext ;
 	  if(NFILES>1) legendtext = fobjVec[ifilevec].legend[ifile].c_str() ;
 	  if(NHISTO>1) { 
 	    legendtext = hobjVec[ihisto].legend[IHISTO].c_str() ;
-	    //std::cout<<" legend = "<<hobjVec[ihisto].legend[IHISTO].c_str() <<std::endl;
+	    std::cout<<" legend = "<<hobjVec[ihisto].legend[IHISTO].c_str() <<std::endl;
 	  }
 	  if(hobjVec[ihisto].isfillColor == 0) 	  leg->AddEntry(h,legendtext,"L");
 	  if(hobjVec[ihisto].isfillColor == 1) 	  leg->AddEntry(h,legendtext,"F");

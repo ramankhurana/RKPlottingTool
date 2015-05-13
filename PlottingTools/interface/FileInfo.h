@@ -20,6 +20,8 @@ class FileInfo {
   std::string option;
   std::string dirname;
   std::string prefixname;
+  
+  
   int nhist;
   int nfile;
   double lumi;

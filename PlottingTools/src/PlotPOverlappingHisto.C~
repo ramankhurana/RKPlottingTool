@@ -144,7 +144,9 @@ void PlotPOverlappingHisto:: DrawHistograms(std::vector<FileInfo> fobjVec, std::
 	    if(NHISTO>1) h->SetLineColor(hobjVec[ihisto].color[IHISTO]);  // if 1 file but multiple histograms
 	  }
 	  if(hobjVec[ihisto].isfillColor == 1){
-	    if(NFILES>1) h->SetFillColor(fobjVec[ifilevec].color[ifile]); // if more than 1 input file
+	    if(NFILES>1) { h->SetFillColor(fobjVec[ifilevec].color[ifile]); // if more than 1 input file
+	      h->SetFillStyle(hobjVec[ifilevec].fillStyle[ifile]);
+	    }
 	    if(NHISTO>1) { 
 	      h->SetFillColor(hobjVec[ihisto].color[IHISTO]);  // if 1 file but multiple histograms
 	      h->SetLineColor(hobjVec[ihisto].color[IHISTO]);  // if 1 file but multiple histograms
@@ -191,9 +193,9 @@ void PlotPOverlappingHisto:: DrawHistograms(std::vector<FileInfo> fobjVec, std::
       pt->SetFillStyle(0);
       pt->SetTextFont(22);
       pt->SetTextSize(0.045);
-      TText *text = pt->AddText(0.01,0.5,"CMS Upgrade Simulation");
+      TText *text = pt->AddText(0.01,0.5,"CMS Simulation");
       //text = pt->AddText(0.3,0.6,"#sqrt{s} = 8 TeV, L = 19.8 fb^{-1}");
-      //text = pt->AddText(0.4,0.5,"#sqrt{s} = 8 TeV");
+      text = pt->AddText(0.4,0.5,"#sqrt{s} = 13 TeV");
       pt->Draw();
       
       TString plotname = hobjVec[ihisto].plotname.c_str();
