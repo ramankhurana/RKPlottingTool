@@ -21,6 +21,9 @@
 #include "PlottingTools/interface/ParseRootFileInfo.h"
 #include "PlottingTools/interface/PlotPOverlappingHisto.h"
 #include "PlottingTools/interface/PlotStackedHisto.h"
+#include "PlottingTools/interface/PlotOverlappingProfiles.h"
+#include "PlottingTools/interface/Plot2D.h"
+
 int main(int argc, char *argv[]){
   bool debug = false;
 
@@ -58,7 +61,9 @@ int main(int argc, char *argv[]){
   std::cout<<" --------------------------------- option = "<<finfoVector[0].option<<std::endl;
   
   if(finfoVector[0].option == "overlap"){    
-    PlotPOverlappingHisto POverlap;
+    //PlotPOverlappingHisto POverlap;
+    PlotOverlappingProfiles POverlap;
+    //Plot2D POverlap;
     POverlap.DrawHistograms(finfoVector, hinfovector);
   }
   

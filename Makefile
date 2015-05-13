@@ -1,4 +1,4 @@
-OBJ=CreateCanvas.o DrawGraph.o RKSaveObject.o ParseRootFileInfo.o ParseHistoInfo.o PlotPOverlappingHisto.o PlotStackedHisto.o
+OBJ=CreateCanvas.o DrawGraph.o RKSaveObject.o ParseRootFileInfo.o ParseHistoInfo.o PlotPOverlappingHisto.o PlotStackedHisto.o PlotOverlappingProfiles.o
 CFLAGS = -Wall -Wno-deprecated -I
 all: saveplots.exe
 saveplots.exe : $(OBJ)
@@ -22,11 +22,14 @@ ParseHistoInfo.o : PlottingTools/src/ParseHistoInfo.C
 PlotPOverlappingHisto.o : PlottingTools/src/PlotPOverlappingHisto.C
 	g++ `root-config --cflags` PlottingTools/src/PlotPOverlappingHisto.C -c 
 
+PlotOverlappingProfiles.o : PlottingTools/src/PlotOverlappingProfiles.C
+	g++ `root-config --cflags` PlottingTools/src/PlotOverlappingProfiles.C -c 
+
 PlotStackedHisto.o : PlottingTools/src/PlotStackedHisto.C
 	g++ `root-config --cflags` PlottingTools/src/PlotStackedHisto.C -c 
 
 clean: 
-	rm -rf CreateCanvas.o DrawGraph.o RKSaveObject.o saveplots.exe	ParseRootFileInfo.o ParseHistoInfo.o PlotPOverlappingHisto.o PlotStackedHisto.o
+	rm -rf CreateCanvas.o DrawGraph.o RKSaveObject.o saveplots.exe	ParseRootFileInfo.o ParseHistoInfo.o PlotPOverlappingHisto.o PlotStackedHisto.o PlotOverlappingProfiles.o
 	echo Cleaning done	
 
 c: 
