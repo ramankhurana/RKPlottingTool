@@ -1,0 +1,59 @@
+option overlap
+nhist 5
+nfile 1
+files ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_ECALHoles_1-main.root
+normalizedUnity 1
+dirnameinrootfile
+legend ECALHoles
+color 1 2 4 6 5
+lumi 0
+xsection 1 1 1 1 1
+totaleventhist 1
+rootfileprefix ECALHoles_1
+endoffile
+
+
+option overlap
+nhist 5
+nfile 1
+files ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_Eta12_1-main.root
+normalizedUnity 1
+dirnameinrootfile
+legend 1.2<|#eta|<1.5
+color 1 2 4 6 5
+lumi 0
+xsection 1 1 1 1 1
+totaleventhist 1
+rootfileprefix Eta12_1
+endoffile
+
+
+option overlap
+nhist 5
+nfile 1
+files ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_Eta24_1-main.root
+normalizedUnity 1
+dirnameinrootfile
+legend  |#eta|>2.5
+color 1 2 4 6 5
+lumi 0
+xsection 1 1 1 1 1
+totaleventhist 1
+rootfileprefix Eta24_1
+endoffile
+
+
+option overlap
+nhist 5
+nfile 1
+files ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_AllJets_3-main.root
+normalizedUnity 1
+dirnameinrootfile
+legend All
+color 1 2 4 6 5
+lumi 0
+xsection 1 1 1 1 1
+totaleventhist 1
+rootfileprefix AllJets_3
+endoffile
+

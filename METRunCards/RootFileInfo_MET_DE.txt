@@ -1,0 +1,13 @@
+option overlap
+nhist 1
+nfile 4
+files ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_ECALHoles_1-main.root ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_Eta12_1-main.root ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_Eta24_1-main.root ../../RootFiles/2015-05-12/Merged_DYJetsToLL_M-50_HT-600toInf_AllJets_3-main.root 
+normalizedUnity 1
+dirnameinrootfile 
+legend ECAL Holes; 1.2<|#eta|<1.5; |#eta|>2.5; All
+color 1 2 4 6 
+lumi 0 
+xsection 1 1 1 1 
+totaleventhist 1
+rootfileprefix 
+endoffile 

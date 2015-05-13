@@ -1,0 +1,49 @@
+Histname GenEM_Minus_RecoPho
+XRange -1000 1000
+YRange 0.0 0.5
+Xaxis E^{EM}_{gen-reco}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName GenEM_Minus_RecoPho
+legendplace 0.72 0.72 0.89 0.89
+legend 
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6 5
+endofhisto
+
+
+Histname GenHad_Minus_RecoHad
+XRange -1000 1000
+YRange 0.0 0.5
+Xaxis E^{had}_{gen-reco}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName GenHad_Minus_RecoHad
+legendplace 0.72 0.72 0.89 0.89
+legend 
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6 5
+endofhisto
+
+
+Histname drmatched
+XRange 0 0.4
+YRange 0.0 0.8
+Xaxis #Delta R_{gen-reco}
+Yaxis # of events (normalized to 1)
+Rebin 1
+PlotName drmatched
+legendplace 0.72 0.72 0.89 0.89
+legend 
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6 
+endofhisto
+
+
+

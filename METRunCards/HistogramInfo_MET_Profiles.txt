@@ -1,0 +1,15 @@
+Histname RecoPhoEF_p RecoCHadEF_p RecoNHadEF_p GenEM_p GenHad_p 
+XRange 0. 1500
+YRange 0.0 0.5
+Xaxis p_{T}^{gen-Jet}
+Yaxis <missing energy>
+Rebin 1
+PlotName h_EnergyDepositComparison_p
+legendplace 0.72 0.72 0.89 0.89
+legend E_{#gamma}^{rec} E_{h-}^{rec} E_{h0}^{rec} E_{EM}^{gen} E_{Had}^{gen}
+isfillcolor 0
+fillstyle 3008 3008 3008 3008
+isLog 0
+color 1 2 4 6 5
+endofhisto
+
